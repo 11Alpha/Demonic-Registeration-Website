@@ -6,7 +6,7 @@ const https = require("https");
 
 const app = express();
 
-app.use(express.static("public"));
+app.use(express.static(__dirname + "/public/"));
 app.use(bodyParser.urlencoded({extended:true}));
 
 app.get("/",function(req,res){
@@ -40,7 +40,7 @@ app.post("/",function(req,res){
 
     const options = {
         method: "POST",
-        auth: "aniket:" + process.env.MAILCHIMP_API_KEY
+        auth: "aniket:" + process.env.API_KEY
     };
 
 

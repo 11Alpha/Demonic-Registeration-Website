@@ -8,7 +8,7 @@ body {
   padding-top: 40px;
   padding-left: 600px;
   padding-bottom: 40px;
-  background-color: #2f4f4f;
+  background-color: #000;
 }
 
 .form-signin {
@@ -34,4 +34,18 @@ body {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+#prompt{
+  color: #A4ADD3;
+  font-weight: bolder;
+  font-size: 30px;
+}
+#sign-btn{
+  background-color: #752BCA;
+}
+#img-logo{
+  filter: drop-shadow(10px 10px 70px #752BCA);
+}
+#copyright{
+  margin-top: 10px;
 }
