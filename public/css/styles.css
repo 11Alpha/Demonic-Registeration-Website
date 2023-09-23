@@ -4,12 +4,13 @@ body {
 }
 body {
   display: flex;
-  align-items: center;
-  padding-top: 40px;
-  padding-left: 600px;
-  padding-bottom: 40px;
+  justify-content: center; /* Horizontally center content */
+  align-items: center; /* Vertically center content */
+  min-height: 100vh; /* Ensure the body takes up at least the viewport height */
   background-color: #000;
+  margin: 0; /* Remove default margin to prevent any unexpected spacing */
 }
+
 
 .form-signin {
   max-width: 330px;
